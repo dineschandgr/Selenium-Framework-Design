@@ -1,0 +1,8 @@
+pageobjects/OrderPage.class
+pageobjects/LandingPage.class
+pageobjects/ProductCatalogPage.class
+resources/ExtentReporterNG.class
+pageobjects/SummaryPage.class
+pageobjects/CartPage.class
+pageobjects/CheckoutPage.class
+AbstractComponents/AbstractComponent.class
