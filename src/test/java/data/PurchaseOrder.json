@@ -1,16 +1,16 @@
 [
-{
-  "email" : "dineshchandgr@gmail.com",
-  "password": "Password@1",
-  "product" : "ZARA COAT 3"
-    
-},
-
-{
+  {
     "email" : "dineshchandgr@gmail.com",
     "password": "Password@1",
-    "product" : "ADIDAS ORIGINAL"
-    
-}
+    "product" : "ZARA COAT 3"
+
+  },
+
+  {
+      "email" : "dineshchandgr@gmail.com",
+      "password": "Password@1",
+      "product" : "ADIDAS ORIGINAL"
+
+  }
 
 ]

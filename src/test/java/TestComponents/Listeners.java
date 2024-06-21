@@ -33,6 +33,8 @@ public class Listeners extends BaseTest implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		//extentTest.get().fail(result.getThrowable());//
+
+		extentTest.get().log(Status.FAIL, "Test Failed");
 		
 		try {
 			driver = (WebDriver) result.getTestClass().getRealClass().getField("driver")

@@ -3,13 +3,6 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.ErrorValidationsTest">
-        <methods>
-          <include name="launchApplication"/>
-          <include name="tearDown"/>
-          <include name="LoginErrorValidation"/>
-        </methods>
-      </class> <!-- tests.ErrorValidationsTest -->
       <class name="cucumber.TestNGTestRunner">
         <methods>
           <include name="runScenario" invocation-numbers="0"/>
@@ -17,6 +10,22 @@
           <include name="setUpClass"/>
         </methods>
       </class> <!-- cucumber.TestNGTestRunner -->
+      <class name="tests.ErrorValidationsTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="LoginErrorValidation"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- tests.ErrorValidationsTest -->
+      <class name="tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="OrderHistoryTest"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- tests.SubmitOrderTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
